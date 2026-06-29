@@ -1,4 +1,3 @@
-import React from 'react';
 export default function Contact() {
   return (
     <section className="page-hero page-section contact-page">
