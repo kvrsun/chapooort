@@ -1,12 +1,10 @@
 import React from 'react';
-import luxsyLogo from '../assets/luxsyLogoDataUri.js';
 
 export default function Contact() {
   return (
     <section className="page-hero contact-page">
       <div className="container">
-        <div className="contact-hero__intro fade-up" aria-labelledby="contact-heading">
-          <img className="contact-hero__mark" src={luxsyLogo} alt="LUXSY" />
+        <div className="fade-up" aria-labelledby="contact-heading">
           <p className="eyebrow">Contact</p>
           <h1 id="contact-heading">Direct consultation for considered spaces.</h1>
         </div>

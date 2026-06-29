@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import luxsyLogo from '../assets/luxsyLogoDataUri.js';
+import luxsyLogo from '../assets/luxsy-logo.svg';
 
 export default function Footer() {
   return (

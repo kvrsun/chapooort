@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import luxsyLogo from '../assets/luxsyLogoDataUri.js';
+import luxsyLogo from '../assets/luxsy-logo.svg';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
