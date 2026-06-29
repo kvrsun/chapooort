@@ -1,36 +1,21 @@
 import React from 'react';
+
 export default function Contact() {
   return (
-    <section className="page-hero page-section contact-page">
-      <div className="container contact-grid">
-        <div className="fade-up">
+    <section className="page-hero contact-page">
+      <div className="container">
+        <div className="fade-up" aria-labelledby="contact-heading">
           <p className="eyebrow">Contact</p>
-          <h1>Tell us what you are building.</h1>
-          <p>Contact details coming soon. Please reach out through our social channels.</p>
-          <div className="contact-links">
-            <a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
-            <a href="mailto:consult@luxsy.space">consult@luxsy.space</a>
-          </div>
+          <h1 id="contact-heading">Direct consultation for considered spaces.</h1>
         </div>
-        <form className="contact-form fade-up" aria-label="Project enquiry form">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" autoComplete="name" required />
-          </label>
-          <label>
-            <span>Business Name</span>
-            <input type="text" name="businessName" autoComplete="organization" />
-          </label>
-          <label>
-            <span>Email</span>
-            <input type="email" name="email" autoComplete="email" required />
-          </label>
-          <label>
-            <span>Project Description</span>
-            <textarea name="projectDescription" rows="7" required />
-          </label>
-          <button type="submit">Start a Project</button>
-        </form>
+
+        <div className="contact-grid fade-up" aria-label="LUXSY contact details">
+          <p className="eyebrow">Email</p>
+          <a href="mailto:consult@luxsy.space">consult@luxsy.space</a>
+
+          <p className="eyebrow">Phone</p>
+          <a href="tel:0774051384">0774051384</a>
+        </div>
       </div>
     </section>
   );
