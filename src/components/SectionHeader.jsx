@@ -1,4 +1,3 @@
-import React from 'react';
 export default function SectionHeader({ eyebrow, title, children }) {
   return (
     <div className="section-header fade-up">

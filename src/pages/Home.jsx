@@ -1,4 +1,3 @@
-import React from 'react';
 import Button from '../components/Button.jsx';
 import SectionHeader from '../components/SectionHeader.jsx';
 import { services } from '../data/services.js';
