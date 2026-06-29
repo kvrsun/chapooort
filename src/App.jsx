@@ -1,15 +1,13 @@
+// Temporary App.jsx for troubleshooting
 import { Outlet } from 'react-router-dom';
-import Navbar from './components/Navbar.jsx';
-import Footer from './components/Footer.jsx';
 
 export default function App() {
   return (
-    <>
-      <Navbar />
+    <div style={{ padding: '40px', background: 'white', color: 'black' }}>
+      <h1>Shell is working!</h1>
       <main>
         <Outlet />
       </main>
-      <Footer />
-    </>
+    </div>
   );
 }
