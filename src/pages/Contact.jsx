@@ -21,22 +21,6 @@ export default function Contact() {
               <a href="tel:0774051384">0774051384</a>
             </div>
           </div>
-
-          <form className="contact-form" aria-label="Project inquiry form">
-            <label>
-              Name
-              <input type="text" name="name" autoComplete="name" placeholder="Your name" />
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" autoComplete="email" placeholder="you@example.com" />
-            </label>
-            <label>
-              Project details
-              <textarea name="message" rows="6" placeholder="Briefly share what you need help with." />
-            </label>
-            <button type="submit">Send Inquiry</button>
-          </form>
         </div>
       </div>
     </section>
