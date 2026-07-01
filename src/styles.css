@@ -216,15 +216,6 @@ p { color: var(--muted); margin: 0; }
   border-radius: var(--radius);
 }
 .contact-form input:focus, .contact-form textarea:focus { outline: 2px solid rgba(157, 131, 97, 0.22); border-color: var(--accent); }
-.contact-form button {
-  border: 1px solid var(--text);
-  background: var(--text);
-  color: var(--bg);
-  min-height: 50px;
-  cursor: pointer;
-  transition: transform 180ms ease;
-}
-
 .footer { border-top: 1px solid var(--border); padding: 38px 0; }
 .footer__grid { display: grid; gap: 24px; }
 .footer__brand { display: inline-flex; margin-bottom: 8px; }

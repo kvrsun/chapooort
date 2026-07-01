@@ -64,7 +64,7 @@ export default function Home() {
             </div>
           </div>
           <div className="case-study__content">
-            <p> BSTRD partnered with Luxusy to overcome a broken digital presence and low market reach. We revitalized their brand identity and launched a clean, custom-branded website featuring personalized touchpoints designed to drive meaningful customer engagement.</p>
+            <p>BSTRD is a current LUXSY client, presented through a focused commerce and social presence. The engagement supports a sharp customer-facing experience across store presentation and digital channels.</p>
             <div className="button-row case-study__links" aria-label="BSTRD links">
               <Button href="https://btsrd.shop">Visit Store</Button>
               <Button href="https://instagram.com/bstrd.zw" variant="secondary">Instagram</Button>
