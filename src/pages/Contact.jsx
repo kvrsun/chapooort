@@ -35,6 +35,7 @@ export default function Contact() {
               Project details
               <textarea name="message" rows="6" placeholder="Briefly share what you need help with." />
             </label>
+            <button type="submit">Send Inquiry</button>
           </form>
         </div>
       </div>
