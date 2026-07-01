@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../components/Button.jsx';
 import SectionHeader from '../components/SectionHeader.jsx';
 import { services } from '../data/services.js';
+import bstrdAsterisk from '../assets/bstrd-asterisk.svg';
 
 export default function Home() {
   return (
@@ -54,14 +55,17 @@ export default function Home() {
       </section>
 
       <section className="page-section">
-        <div className="container case-study fade-up">
-          <div>
-            <p className="eyebrow">Featured Client</p>
-            <h2>BSTRD</h2>
+        <div className="container case-study case-study--featured fade-up">
+          <div className="case-study__brand">
+            <img className="case-study__logo" src={bstrdAsterisk} alt="BSTRD pink asterisk logo" />
+            <div>
+              <p className="eyebrow">Featured Client</p>
+              <h2>BSTRD</h2>
+            </div>
           </div>
           <div className="case-study__content">
             <p>BSTRD is a current LUXSY client, presented through a focused commerce and social presence. The engagement supports a sharp customer-facing experience across store presentation and digital channels.</p>
-            <div className="button-row">
+            <div className="button-row case-study__links" aria-label="BSTRD links">
               <Button href="https://btsrd.shop">Visit Store</Button>
               <Button href="https://instagram.com/bstrd.zw" variant="secondary">Instagram</Button>
             </div>

@@ -1,0 +1,11 @@
+<svg width="1600" height="1600" viewBox="0 0 1600 1600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">BSTRD pink asterisk logo</title>
+  <desc id="desc">A bold hot-pink six-spoke asterisk mark.</desc>
+  <g fill="#ED1A5F">
+    <rect x="629" y="45" width="350" height="690" />
+    <rect x="629" y="865" width="350" height="690" transform="rotate(36 804 1210)" />
+    <rect x="621" y="865" width="350" height="690" transform="rotate(-36 796 1210)" />
+    <rect x="118" y="408" width="350" height="1040" transform="rotate(-72 293 928)" />
+    <rect x="1132" y="418" width="350" height="1040" transform="rotate(72 1307 938)" />
+  </g>
+</svg>
